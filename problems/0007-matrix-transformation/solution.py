@@ -15,6 +15,6 @@ def transform_matrix(A, T, S) -> torch.Tensor:
     if torch.isclose(detT, torch.tensor(0.)):
         return torch.tensor(-1.)
     elif torch.isclose(detS, torch.tensor(0.)):
-        return torch.tensor(-1)
+        return torch.tensor(-1.)
     else :
         return T_t.inverse() @ A_t @ S_t
