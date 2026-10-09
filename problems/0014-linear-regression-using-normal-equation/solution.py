@@ -11,3 +11,5 @@ def linear_regression_normal_equation(X, y) -> torch.Tensor:
     # Your implementation here
     # 都说了正规方程了直接秒
     return ((((X_t.t() @ X_t).inverse()) @ X_t.t() @ y_t).reshape(-1)).round(decimals=4)
+
+    # 本题的坑在于tensor的reshape，基于广播机制，需要对齐维度
