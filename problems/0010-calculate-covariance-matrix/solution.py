@@ -25,3 +25,10 @@ def calculate_covariance_matrix(vectors) -> torch.Tensor:
         for j in range(num_features):
             ans[i,j]=calculate_covariance(v_t[i],v_t[j])
     return ans
+
+    """
+    vector pattern
+    n = v_t.shape[1]
+    X = v_t - v_t.mean(dim=1, keepdim=True)   # 每行去均值
+    return X @ X.t() / (n - 1)
+    """
