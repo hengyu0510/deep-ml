@@ -12,4 +12,14 @@ def matrix_dot_vector(a, b) -> torch.Tensor:
     if a_t.size(1) != b_t.size(0):
         return torch.tensor(-1)
     # Your implementation here
-    return a_t @ b_t 
+    # solution1 直接用矩阵乘法
+    # return a_t @ b_t 
+    # solution 2
+    m , n = a_t.shape
+    ans = torch.zeros(m)
+    for i in range (m):
+        ans[i] = 0
+        for j in range (n):
+            ans[i]+=a_t[i,j]*b_t[j]
+    return ans
+        
