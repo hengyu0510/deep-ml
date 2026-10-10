@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**11** solved · 11 problems · 0 labs · 0 math
+**12** solved · 12 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -23,6 +23,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Implement AdamW Optimizer Step](https://www.deep-ml.com/problems/169) | medium | 2026-10-10 | [solution](problems/0169-implement-adamw-optimizer-step) |
 | [Matrix Transformation ](https://www.deep-ml.com/problems/7) | medium | 2026-10-09 | [solution](problems/0007-matrix-transformation) |
 | [Muon Optimizer Step with Matrix Preconditioning](https://www.deep-ml.com/problems/170) | medium | 2026-10-10 | [solution](problems/0170-muon-optimizer-step-with-matrix-preconditioning) |
+| [Warmup + Cosine Decay Schedule](https://www.deep-ml.com/problems/196) | medium | 2026-10-10 | [solution](problems/0196-warmup-cosine-decay-schedule) |
 
 ---
 
