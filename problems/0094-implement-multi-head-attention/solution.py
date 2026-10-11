@@ -48,12 +48,13 @@ def multi_head_attention(Q: torch.Tensor, K: torch.Tensor, V: torch.Tensor, n_he
         Attention output of shape (seq_len, d_model)
     """
     # Your code here
-    # 很好的练习reshape的题目
+    # 很好的练习reshape的题目,reshape(m,n):变成m,n维，transpose，直接交换维度
     seq_len , d_k = Q.shape
     sub_d = d_k // n_heads #这里需要整除 
     Q = Q.reshape(seq_len,n_heads,sub_d).transpose(0,1)
     K = K.reshape(seq_len,n_heads,sub_d).transpose(0,1)
     V = V.reshape(seq_len,n_heads,sub_d).transpose(0,1)
+    # 3D tensor的乘法：前面的维度当作Batch，或者进行广播，后两位需要满足矩阵乘法的维度
     score = torch.matmul(Q,K.transpose(-1,-2)) / (sub_d ** 0.5)
     score = torch.softmax(score,dim=-1)
     return torch.matmul(score,V).transpose(0,1).reshape(seq_len,d_k)
