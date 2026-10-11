@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**20** solved · 20 problems · 0 labs · 0 math
+**21** solved · 21 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -24,6 +24,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Reshape Matrix](https://www.deep-ml.com/problems/3) | easy | 2026-10-09 | [solution](problems/0003-reshape-matrix) |
 | [Scalar Multiplication of a Matrix](https://www.deep-ml.com/problems/5) | easy | 2026-10-09 | [solution](problems/0005-scalar-multiplication-of-a-matrix) |
 | [Transpose of a Matrix](https://www.deep-ml.com/problems/2) | easy | 2026-10-09 | [solution](problems/0002-transpose-of-a-matrix) |
+| [Gradient Clipping by Global Norm](https://www.deep-ml.com/problems/197) | medium | 2026-10-11 | [solution](problems/0197-gradient-clipping-by-global-norm) |
 | [Implement AdamW Optimizer Step](https://www.deep-ml.com/problems/169) | medium | 2026-10-10 | [solution](problems/0169-implement-adamw-optimizer-step) |
 | [Implement Self-Attention Mechanism](https://www.deep-ml.com/problems/53) | medium | 2026-10-11 | [solution](problems/0053-implement-self-attention-mechanism) |
 | [Implement the Bellman Equation for Value Iteration](https://www.deep-ml.com/problems/157) | medium | 2026-10-11 | [solution](problems/0157-implement-the-bellman-equation-for-value-iteration) |
