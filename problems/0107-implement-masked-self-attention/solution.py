@@ -11,7 +11,7 @@ def masked_attention(Q: torch.Tensor, K: torch.Tensor, V: torch.Tensor, mask: to
     Compute masked self-attention.
     """
     # 掩码自注意力
-    # j
+    # 减去max的目的是1.避免exp的上溢 2.至少有为0的元素，不至于太负而exp之后都是0
     score = torch.matmul(Q,K.t()) / Q.shape[1]
     score += mask
     score = torch.softmax(score-score.max(), dim=1)
