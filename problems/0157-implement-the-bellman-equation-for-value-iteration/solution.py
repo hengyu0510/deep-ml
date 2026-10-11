@@ -12,7 +12,7 @@ def bellman_update(V: torch.Tensor, transitions: list, gamma: float) -> torch.Te
     """
     # TODO: Implement Bellman update
 
-    
+    # 主要是熟悉一下对dict和list的循环操作
     # 注意到如果done是1，那么后面就没有V(s')了，说明任务已经结束了
     num_states = V.shape[0]
     V_next =torch.zeros(num_states)
