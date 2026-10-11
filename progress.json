@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:40:49.094Z",
+  "generated_at": "2026-10-11T12:49:49.439Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -208,6 +208,19 @@
       "last_pushed_at": "2026-10-11T11:40:48.220Z",
       "language": "python",
       "lines": 11
+    },
+    "problem:157": {
+      "kind": "problem",
+      "id": "157",
+      "title": "Implement the Bellman Equation for Value Iteration",
+      "difficulty": "medium",
+      "category": "Reinforcement Learning",
+      "url": "https://www.deep-ml.com/problems/157",
+      "path": "problems/0157-implement-the-bellman-equation-for-value-iteration",
+      "first_solved_at": "2026-10-11T12:49:48.424Z",
+      "last_pushed_at": "2026-10-11T12:49:48.424Z",
+      "language": "python",
+      "lines": 28
     }
   }
 }
