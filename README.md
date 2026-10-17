@@ -2,7 +2,7 @@
 
 My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solution here was written by hand.
 
-**29** solved · 29 problems · 0 labs · 0 math
+**30** solved · 30 problems · 0 labs · 0 math
 
 ![Coverage](./coverage.svg)
 
@@ -29,6 +29,7 @@ My machine learning practice from [Deep-ML](https://www.deep-ml.com). Every solu
 | [Gradient Clipping by Global Norm](https://www.deep-ml.com/problems/197) | medium | 2026-10-11 | [solution](problems/0197-gradient-clipping-by-global-norm) |
 | [Implement AdamW Optimizer Step](https://www.deep-ml.com/problems/169) | medium | 2026-10-10 | [solution](problems/0169-implement-adamw-optimizer-step) |
 | [Implement Masked Self-Attention](https://www.deep-ml.com/problems/107) | medium | 2026-10-11 | [solution](problems/0107-implement-masked-self-attention) |
+| [Implement Multiquery Attention (MQA)](https://www.deep-ml.com/problems/390) | medium | 2026-10-17 | [solution](problems/0390-implement-multiquery-attention-mqa) |
 | [Implement MuonClip (qk-clip) for Stabilizing Attention](https://www.deep-ml.com/problems/177) | medium | 2026-10-12 | [solution](problems/0177-implement-muonclip-qk-clip-for-stabilizing-attention) |
 | [Implement RMSProp Optimizer](https://www.deep-ml.com/problems/200) | medium | 2026-10-12 | [solution](problems/0200-implement-rmsprop-optimizer) |
 | [Implement Self-Attention Mechanism](https://www.deep-ml.com/problems/53) | medium | 2026-10-11 | [solution](problems/0053-implement-self-attention-mechanism) |
